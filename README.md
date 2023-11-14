@@ -26,5 +26,4 @@
 11. Check the status to ensure everything is up-to-date.
 	**git status**
 12. Commit the changes.
-	**git add .**
-	**git commit -m "Commit the changes"**
+	**git push origin master**
