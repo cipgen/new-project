@@ -21,9 +21,11 @@
 9. Commit the changes in the "development" branch with a commit message.
 	**git commit -m "add instructions to README.md"**
 10. Merge the changes from the "development" branch into the "main" branch.
-	**git checkout master**
+	**git switch master**
 	**git merge development**
 11. Check the status to ensure everything is up-to-date.
 	**git status**
 12. Commit the changes.
-	**git push origin master**
+	**git branch -M main**
+	**git remote add origin https://github.com/cipgen/new-project.git**
+	**git push -u origin main**
